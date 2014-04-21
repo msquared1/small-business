@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*...begin design of small business project...*/
+
+/* {
+	outline: 1px solid black;
+}*/
+
+.container {
+	height:100%;
+	width:100%;
+	font-style: Sans-serif;
+	font-size: 18px;
+	background-color: #c2f0ff;
+}
+
+#header {
+	position:fixed;
+	height:60px;
+	width:100%;
+	background-color: orange;
+}
+
+.nav {
+	display:block;
+	width:7%;
+	float:left;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-left:60px;
+	list-style: none;
+}
+
+.contact {
+	display:block;
+	float:right;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-right:100px;
+	margin-left: -80px;
+	list-style: none;
+}
+
+#image {
+	position:inherit;
+	height:550px;
+	width:100%;
+	margin-top: 60px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.about {
+	display:inline-block;
+	position: inherit;
+	float:left;
+	margin:15px;
+	height:190px;
+	width:75%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#mp1 {
+	height:170px;
+	width:226px;
+	float:right;
+	clear:both;
+	margin-top: -205px;
+	margin-right: 40px;
+	padding:10px;
+	background-color: white;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#things{
+	position:relative;
+	float:left;
+	margin-left: 15px;
+	height:200px;
+	width:30%;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#amenities{
+	position:relative;
+	margin-top: 220px;
+	clear:right;
+	margin-left: 34%;
+	height:200px;
+	width:30%;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#specialpromotions{
+	position:relative;
+	margin-top:-200px;
+	margin-right: 40px;
+	float:right;
+	height:200px;
+	width:30%;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
+.footer {
+	position:inherit;
+	height:60px;
+	width:100%;
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+	background-color: orange;
+	clear:both;
+}
